@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Header -->
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/doc_event"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Event"
+            android:width="80dip" />
+
+        <TextView
+            android:id="@+id/doc_date"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Date"
+            android:width="90dip" />
+
+        <TextView
+            android:id="@+id/doc_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Time"
+            android:width="80dip" />
+
+        <TextView
+            android:id="@+id/doc_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Priority"
+            android:width="60dip" />
+    </LinearLayout>
+    <!-- List Divider -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip" />
+    <!-- ListView (grid_items) -->
+-
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
